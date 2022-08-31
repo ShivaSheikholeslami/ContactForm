@@ -15,6 +15,7 @@ export default function ContactForm() {
 
     e.preventDefault();
     // we need to pass 4 parameters and sign up to emailjs.com
+    // serviveId,Template ID,e.target,userID
     emailjs.sendForm('service_l36o6z4','template_i16vsbb',e.target,'7_lICOZJg2NcfrW2Y').then(Response=>{console.log(Response);
     }).catch(error=> console.error(error));
   }
@@ -23,7 +24,9 @@ export default function ContactForm() {
 
   return (
     <div className='form-box'>
+
       <form onSubmit={sendEmail}>
+
          <div className='form-group'>
             <label>First Name:</label>
 
