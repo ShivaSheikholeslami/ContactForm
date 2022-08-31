@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdEmail, MdFacebook, MdLocalPhone } from 'react-icons/md';
+import { MdEmail, MdFacebook, MdLocalPhone, MdLocationOn } from 'react-icons/md';
 import SectionTitle from '../component/SectionTitle';
 import ContactInformationItem from './ContactInformationItem';
 import '../component/ContactSection.css';
