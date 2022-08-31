@@ -8,12 +8,13 @@
     position: relative;
 
 }
+/* for the divider line */
 .wrapper::after{
     position:absolute ;
     content: '';
     width: 3px;
     height: 80%;
-    background-color: gray;
+    background-color: grey;
 }
 .left{
     width: 100%;
